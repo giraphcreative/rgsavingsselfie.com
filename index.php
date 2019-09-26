@@ -30,7 +30,7 @@
 	</nav>
 
 	<header>
-		<a href="https://www.rgfcu.com/" target="_blank"><img src="img/header.png?v=1" alt="Your Moments Matter"></a>
+		<a href="https://www.rgfcu.com/" target="_blank"><img src="img/header.png" alt="Your Moments Matter"></a>
 	</header>
 		
 	<div class="intro pad">
@@ -93,7 +93,7 @@
 				$label = str_replace( '-', ' ', $label );
 				$label = str_replace( '^', '-', $label );
 				?><div class="photo">
-					<div class="insta-link"><a href="https://www.instagram.com/rgfcu/"><img src="img/icon-rgfcu.png"> rgfcu</a></div>
+					<div class="insta-link"><a href="https://www.instagram.com/rgfcu/" target="_blank"><img src="img/icon-rgfcu.png"> rgfcu</a></div>
 					<img src="photos/<?php print $photo; ?>" />
 					<div class="insta-icons"><img src="img/icons-insta.png" ></div>
 					<div class="insta-label"><?php print $label; ?></div>
