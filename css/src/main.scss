@@ -279,11 +279,7 @@ header {
 }
 
 
-.ad {
-	@include respond-to( 1100px ) {
-		padding: 30px 40px;
-	}
-
+.apply-content {
 	img {
 		display: block;
 	}
