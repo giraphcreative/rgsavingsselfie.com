@@ -30,7 +30,7 @@
 	</nav>
 
 	<header>
-		<a href="https://www.rgfcu.com/" target="_blank"><img src="img/header.png" alt="Your Moments Matter"></a>
+		<a href="https://www.rgfcu.com/" target="_blank"><img src="img/header.png?v=1" alt="Your Moments Matter"></a>
 	</header>
 		
 	<div class="intro pad">
