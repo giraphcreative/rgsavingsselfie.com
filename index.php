@@ -36,7 +36,9 @@
 	<a name="about"></a>
 	<div class="intro pad">
 		<h3>We've got a really grand idea.</h3>
-		<img src="img/social.png" class="social" />
+		<a href="https://twitter.com/RGFCU" target="_blank"><img src="img/icon-twitter.png" class="social" /></a>
+		<a href="https://www.instagram.com/rgfcu/" target="_blank"><img src="img/icon-insta.png" class="social" /></a>
+		<a href="https://www.facebook.com/RGFCU/" target="_blank"><img src="img/icon-facebook.png" class="social" /></a>
 		<p>If you've got an auto loan financed somewhere other than R-G Federal Credit Union...put us to the test. 
 		<p>We'll not only work to lower your monthly car payment - we'll also pay you $25 when you let us share your savings story on social media.</p>
 	</div>
