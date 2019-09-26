@@ -228,6 +228,7 @@ header {
 .intro {
 	@include clearfix;
 	color: $teal-dark;
+	background: url(../img/bg-fingerprint-right.png) top right no-repeat;
 
 	.social {
 		@include respond-to( 768px ) {	
