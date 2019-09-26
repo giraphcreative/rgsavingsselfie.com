@@ -32,7 +32,8 @@
 	<header>
 		<a href="https://www.rgfcu.com/" target="_blank"><img src="img/header.png" alt="Your Moments Matter"></a>
 	</header>
-		
+	
+	<a name="about"></a>
 	<div class="intro pad">
 		<h3>We've got a really grand idea.</h3>
 		<img src="img/social.png" class="social" />
@@ -40,6 +41,7 @@
 		<p>We'll not only work to lower your monthly car payment - we'll also pay you $25 when you let us share your savings story on social media.</p>
 	</div>
 
+	<a name="connect"></a>
 	<div class="contact pad">
 		<h3>Start the Savings Conversation:</h3>
 		<form id="contact" name="contact">
@@ -64,13 +66,14 @@
 		</form>
 	</div>
 
+	<a name="rgsavingsselfie"></a>
 	<div class="photos pad">
 		<h3>#rgsavingsselfie</h3>
 		<p>See how much people near you are saving by moving their car loans to R-G!</p>
 		<?php
 
 		function scan_dir($dir) {
-		    $ignored = array('.', '..', '.svn', '.htaccess');
+		    $ignored = array('.', '..', '.svn', '.git', '.DS_Store', '.htaccess');
 
 		    $files = array();    
 		    foreach (scandir($dir) as $file) {
@@ -86,19 +89,17 @@
 
 		$photos = scan_dir( './photos/');
 		foreach ( $photos as $photo ) {
-			if ( $photo != '.' && $photo != '..' ) {
-				$ext = pathinfo( "./photos/" . $photo )['extension'];
-				$label = str_replace( $ext, '', $photo );
-				$label = str_replace( '--', '^', $label );
-				$label = str_replace( '-', ' ', $label );
-				$label = str_replace( '^', '-', $label );
-				?><div class="photo">
-					<div class="insta-link"><a href="https://www.instagram.com/rgfcu/" target="_blank"><img src="img/icon-rgfcu.png"> rgfcu</a></div>
-					<img src="photos/<?php print $photo; ?>" />
-					<div class="insta-icons"><img src="img/icons-insta.png" ></div>
-					<div class="insta-label"><?php print $label; ?></div>
-				</div><?php
-			}
+			$ext = pathinfo( "./photos/" . $photo )['extension'];
+			$label = str_replace( $ext, '', $photo );
+			$label = str_replace( '--', '^', $label );
+			$label = str_replace( '-', ' ', $label );
+			$label = str_replace( '^', '-', $label );
+			?><div class="photo">
+				<div class="insta-link"><a href="https://www.instagram.com/rgfcu/" target="_blank"><img src="img/icon-rgfcu.png"> rgfcu</a></div>
+				<img src="photos/<?php print $photo; ?>" />
+				<div class="insta-icons"><img src="img/icons-insta.png" ></div>
+				<div class="insta-label"><?php print $label; ?></div>
+			</div><?php
 		}
 		?>
 	</div>
