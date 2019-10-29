@@ -120,7 +120,7 @@
 	</div>
 
 	<footer class="fineprint">
-		<div class="pad">*APR = Annual Percentage Rate. All loans subject to approval. Loans must be in good standing (not more than 30 days past due) to be eligible for offer. Credit union’s beat rate program is meant to save members money, however; we will not go below our established floor rate. Verification of current rate is required. Final rate will be based on the year of the vehicle. See loan representative for qualifying rate. Early payment penalty may apply if loan refinanced within 6-months of transferring. $100 incentive will be deposited into the members' account within 30 days of loan closing.  Loans currently financed with R-G Federal Credit Union are not eligible for promotion. Rates, terms, and conditions subject to change and may vary based on qualification, including creditworthiness. See credit union for details.</div> 
+		<div class="pad">*Loans currently financed with the credit union are not eligible. $25 incentive will be given to member in the form of a check after: 1.) A photo has been taken of the member 2.) The member has signed the credit union's photo release form. Membership eligibility required. Offer available 10/1/19-12/31/19. Credit union reserves the right to discontinue, change, and/or update the promotion without notice. Average $580 savings based on data from the Missouri Q1 2019 CUNA Membership Benefits Report. Your savings may vary. All loans subject to approval. Rates subject to change at any time.</div> 
 	</footer>
 
 </div>
