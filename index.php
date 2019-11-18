@@ -3,7 +3,7 @@
 <head>
 	<title>#rgsavingsselfie | R-G FCU</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/main.css?v=7">
+	<link rel="stylesheet" href="css/main.css?v=8">
 	<script src="js/respond.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
