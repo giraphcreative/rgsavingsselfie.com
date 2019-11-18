@@ -230,6 +230,14 @@ header {
 	color: $teal-dark;
 	background: url(../img/bg-fingerprint-right.png) top right no-repeat;
 
+	.rate {
+
+		@include respond-to( 768px ) {	
+			float: left;
+			margin: 20px 20px 10px -20px;
+		}
+	}
+
 	.social {
 		@include respond-to( 768px ) {	
 			float: right;

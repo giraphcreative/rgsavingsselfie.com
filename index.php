@@ -3,7 +3,7 @@
 <head>
 	<title>#rgsavingsselfie | R-G FCU</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/main.css?v=5">
+	<link rel="stylesheet" href="css/main.css?v=6">
 	<script src="js/respond.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -35,6 +35,7 @@
 	
 	<a name="about"></a>
 	<div class="intro pad">
+		<img src="img/ratebox.png" class="rate" />
 		<h3>We've got a really grand idea.</h3>
 		<a href="https://twitter.com/RGFCU" target="_blank"><img src="img/icon-twitter.png" class="social" /></a>
 		<a href="https://www.instagram.com/rgfcu/" target="_blank"><img src="img/icon-insta.png" class="social" /></a>
@@ -120,7 +121,7 @@
 	</div>
 
 	<footer class="fineprint">
-		<div class="pad">*Loans currently financed with the credit union are not eligible. $25 incentive will be given to member in the form of a check after: 1.) A photo has been taken of the member 2.) The member has signed the credit union's photo release form. Membership eligibility required. Offer available 10/1/19-12/31/19. Credit union reserves the right to discontinue, change, and/or update the promotion without notice. Average $580 savings based on data from the Missouri Q1 2019 CUNA Membership Benefits Report. Your savings may vary. All loans subject to approval. Rates subject to change at any time.</div> 
+		<div class="pad">*APR = Annual Percentage Rate. Your rate may differ based on creditworthiness and other qualifying factors. Rate subject to change at any time without notice *Loans currently financed with the credit union are not eligible. $25 incentive will be given to member in the form of a check after: 1.) A photo has been taken of the member 2.) The member has signed the credit union's photo release form. Membership eligibility required. Offer available 10/1/19-12/31/19. Credit union reserves the right to discontinue, change, and/or update the promotion without notice. Average $580 savings based on data from the Missouri Q1 2019 CUNA Membership Benefits Report. Your savings may vary. All loans subject to approval. Rates subject to change at any time.</div> 
 	</footer>
 
 </div>
