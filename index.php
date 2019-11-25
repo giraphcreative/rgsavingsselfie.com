@@ -110,7 +110,7 @@
 	</div>
 
 	<div class="apply-content">
-		<a href="https://www.netit.financial-net.com/rgfcu-loan/cgi-bin/ebs?OLB_CMD-SLN-164&loan_file=../loan_master"><img src="img/promo-apply.png" class="apply" /></a>
+		<a href="https://www.netit.financial-net.com/rgfcu-loan/cgi-bin/ebs?OLB_CMD-SLN-164&loan_file=../loan_master" onClick="ga('send', 'event', 'Apply Click', 'App started');"><img src="img/promo-apply.png" class="apply" /></a>
 	</div>
 
 	<div class="footer group">
